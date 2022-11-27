@@ -90,7 +90,7 @@ export default function BasicScreen(props) {
 
   // HTML OF ITEM
   const fnFetchApi = () => {
-    const apiUrl = "http://www.omdbapi.com/?apikey=29b45619&s=" + keyword;
+    const apiUrl = "http://www.omdbapi.com/?apikey=xxxxxxx=" + keyword;
     fetch(apiUrl)
       .then((res) => res.json())
       .then((resData) => {
